@@ -5,7 +5,8 @@
     <style>
         body {
             background-color: #248ccc;
-        
+            overflow: auto;
+            
         }
 
         #Menü1 {
@@ -17,12 +18,7 @@
              left: 50%;
              transform: translate(-50%, -50%);
             border-radius: 60px;
-        }
-
-        #Box1 {
-            background-color: rgb(255, 255, 255);
-            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
-            
+            border: solid black 1px;
         }
 
         .Titel {
@@ -35,15 +31,40 @@
 
         }
 
-        .Button {
+        .Button-1 {
             background-color: white;
-            width: 200px;
+            width: 250px;
             height: 60px;
             border-radius: 60px;
             position: fixed;
-            top: 35%;
+            top: 30%;
             left: 20%;
             transform: translate(-50%, -50%);
+            border: solid black 1px;
+        
+        }
+        .Button-2 {
+            background-color: white;
+            width: 250px;
+            height: 60px;
+            border-radius: 60px;
+            position: fixed;
+            top: 30%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border: solid black 1px;
+        
+        }
+        .Button-3 {
+            background-color: white;
+            width: 250px;
+            height: 60px;
+            border-radius: 60px;
+            position: fixed;
+            top: 30%;
+            left: 80%;
+            transform: translate(-50%, -50%);
+            border: solid black 1px;
         
         }
 
@@ -53,8 +74,8 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: black;
               position: fixed;
-             top: 200px;
-             left: 20%;
+             top: 47%;
+             left: 35%;
              transform: translate(-50%, -50%);
         }
         #Text-Button-2 {
@@ -63,8 +84,8 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: black;
               position: fixed;
-             top: 200px;
-             left: 50%;
+             top: 47%;
+             left: 36%;
              transform: translate(-50%, -50%);
         }
         #Text-Button-3 {
@@ -73,10 +94,23 @@
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             color: black;
               position: fixed;
-             top: 200px;
-             left: 80%;
+             top: 47%;
+             left: 35%;
              transform: translate(-50%, -50%);
         }
+
+        #Box-1 {
+            background-color: white;
+            width: 1140px;
+            height: 500px;
+             position: fixed;
+             top: 80%;
+             left: 50%;
+             transform: translate(-50%, -50%);
+            border-radius: 10px;
+            border: solid black 1px;
+        }
+            
     </style>
 
 </head>
@@ -88,16 +122,24 @@
 
     <h1 class="Titel">Wasserkirche</h1>
 
-    <div class="Button">
+    <div class="Button-1">
         <a href="Geschichte.html" style="text-decoration: none;" id="Text-Button-1">Geschichte</a>
     </div>
-    <div class="Button">
+    <div class="Button-2">
         <a href="Architektur.html" style="text-decoration: none;" id="Text-Button-2">Architektur</a>
     </div>
-    <div class="Button">
+    <div class="Button-3">
         <a href="krypta.html" style="text-decoration: none;" id="Text-Button-3">Krypta</a>
     </div>
   
+    <div id="Box-1">
+ 
+
+
+    </div>
+    
+
+
    
 
 </body>
