@@ -1,0 +1,150 @@
+body {
+    background-color: #248ccc;
+
+}
+
+#Menü1 {
+    background-color: white;
+    width: 1140px;
+    height: 100px;
+     position: absolute;
+     top: 15%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    border-radius: 60px;
+    border: solid black 1px;
+}
+
+.Titel {
+    font-size: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+      position: absolute;
+     top: 6%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+
+}
+
+.Button-1 {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 30%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    border: solid black 1px;
+
+}
+.Button-2 {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: solid black 1px;
+
+}
+.Button-3 {
+    background-color: white;
+    width: 250px;
+    height: 60px;
+    border-radius: 60px;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    border: solid black 1px;
+
+}
+
+#Text-Button-1 {
+    margin-left: 38px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+      position: absolute;
+     top: 47%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+}
+#Text-Button-2 {
+    margin-left: 38px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+      position: absolute;
+     top: 47%;
+     left: 36%;
+     transform: translate(-50%, -50%);
+}
+#Text-Button-3 {
+    margin-left: 38px;
+    font-size: 45px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+      position: absolute;
+     top: 47%;
+     left: 35%;
+     transform: translate(-50%, -50%);
+}
+
+#Box-1 {
+    background-color: white;
+    width: 1140px;
+    height: 550px;
+    position:absolute;
+     top: 100%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+    border-radius: 10px;
+    border: solid black 1px;
+}
+
+#IHC {
+    margin-left: 100px;
+    margin-top: 1000px;
+}
+
+#Ende {
+    background-color: #248ccc;
+    width: 2432px;
+    height: 40px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top:160%;
+}
+    
+#Wasserkirche-Bild-1 {
+    width: 600px;
+    image-resolution: 4000;
+    left: 70%;
+    top: 43%;
+    border-radius: 10px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+}
+
+#Text-Box-1 {
+    position: absolute;
+     transform: translate(-50%, -50%);
+     font-size: 20px;
+     top: 30%;
+     left: 22%;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#Text-Box-2 {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    font-size: 15px;
+    top: 80%;
+    left: 85%;
+}
+
+
