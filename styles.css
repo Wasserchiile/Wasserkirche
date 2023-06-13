@@ -16,7 +16,7 @@ body {
 }
 
 .Titel {
-    font-size: 430px;
+    font-size: 430%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     color: black;
       position: absolute;
